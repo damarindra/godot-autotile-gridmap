@@ -13,6 +13,8 @@ Download the library from [release page](https://github.com/damarindra/godot-aut
 
 The `.gdextension` file uses relative paths, so keep the library folder next to it.
 
+This extension is editor-only. If you export a runnable project, exclude `bin/auto_tile.gdextension` and `bin/auto_tile/*` in the export preset so Godot does not look for non-editor runtime libraries.
+
 Example layout:
 
 ```text
